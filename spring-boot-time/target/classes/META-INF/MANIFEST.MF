@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-time
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: tony21177
+Implementation-Vendor-Id: com.tony
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/spring-boot-
+ time/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

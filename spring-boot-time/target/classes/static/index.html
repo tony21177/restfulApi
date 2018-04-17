@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Get Time</title>
+<script	src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/time.js"></script>
+<script type="text/javascript" src="/webjars/js-cookie/js.cookie.js"></script>
+<link rel="stylesheet" href="css/time.css"/>
+</head>
+<body>
+	<h1 align="center">Get Time Service</h1>
+	<div align="center">
+		<div></div>
+		<a href="/login" style="color:red" class="login">Login with Facebook</a><br/>
+		<img src="" height="42" width="42" class="picture" style="display:none"></img><span class="name"></span><a href="#" onClick="logout()" class="logout" style="display:none;color:red">Logout</a>
+	</div>
+	<div align="center">
+		<button type="button" onclick="getTime()" class="button">Get Time</button>
+	</div>
+	<div id="unixTime" align="center" style="color:red"></div>
+	<div id="serverTime" align="center" style="color:red"></div>
+	<div id="unauthenticated" align="center" style="color:red"></div>
+</body>
+</html>

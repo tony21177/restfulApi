@@ -1,0 +1,16 @@
+#使用的是Spring boot官方提供的FB developer帳號,註冊的redirect URL是localhost:8080
+
+#以下configuration是搭配@EnableOAuth2Sso
+security:
+  oauth2:
+    client:
+      clientId: 233668646673605
+      clientSecret: 33b17e044ee6a4fa383f46ec6e28ea1d
+      accessTokenUri: https://graph.facebook.com/oauth/access_token
+      userAuthorizationUri: https://www.facebook.com/dialog/oauth
+      tokenName: oauth_token
+      authenticationScheme: query
+      clientAuthenticationScheme: form
+    resource:
+      userInfoUri: https://graph.facebook.com/me?fields=id,name,picture
+
